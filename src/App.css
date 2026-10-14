@@ -424,3 +424,28 @@ h1 em, h2 em { color: var(--brass-bright); font-weight: 500; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Tables inside a race trait: fit the column and wrap the text */
+.race-trait-table .progression-table-wrap {
+  overflow-x: visible;
+}
+
+.race-trait-table .progression-table {
+  width: 100%;
+  min-width: 0;
+  table-layout: auto;
+}
+
+.race-trait-table .progression-table th,
+.race-trait-table .progression-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.race-trait-table .progression-table td:last-child {
+  text-align: left;
+}
+
+.race-trait-table .progression-table td:first-child {
+  width: 30%;
+}

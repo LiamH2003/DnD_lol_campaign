@@ -27,7 +27,7 @@ const racePortraits: Record<string, { src: string; alt: string; position: string
   Golem: { src: '/golem.jpg', alt: 'Large mechanical golem with glowing blue components', position: 'center 20%' },
   Human: { src: '/human2.jpg', alt: 'Armored human warrior carrying a great weapon', position: 'center 11%' },
   Minotaur: { src: '/minotaur.jpg', alt: 'Horned minotaur warrior in battle gear', position: 'center 32%' },
-  Spirit: { src: '/yordle.jpg', alt: 'Small furred yordle adventurer in a red cap', position: 'center 25%' },
+  Yordle: { src: '/yordle2.jpg', alt: 'Small furred yordle adventurer in a red cap', position: 'center 25%' },
   Troll: { src: '/troll.jpg', alt: 'Blue-skinned troll in heavy fur and armor', position: 'center 16%' },
   Vastaya: { src: '/vastaya.jpg', alt: 'Fox-eared vastaya traveler in layered clothing', position: 'center 20%' },
 }
@@ -38,7 +38,7 @@ const raceGlyphs: Record<string, LucideIcon> = {
   Golem: Hexagon,
   Human: Command,
   Minotaur: Star,
-  Spirit: Moon,
+  Yordle: Moon,
   Troll: Snowflake,
   Vastaya: Flame,
 }
